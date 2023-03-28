@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trilha CSS Dio.me - Desafio de Flexbox</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="header-left">
+        <img src="./assets/img/menu.svg" alt="Botão de menu lateral" />
+        <a href="https://youtube.com">
+          <img src="./assets/img/logo-youtube.png" alt="Logotipo do YouTube" />
+        </a>
+      </div>
+      <div class="header-center">
+        <input type="search" name="search" id="search-box" />
+        <button type="submit">
+          <img src="./assets/img/search.svg" alt="Botão de busca" />
+        </button>
+      </div>
+      <div class="header-right">
+        <img src="./assets/img/icon-video.svg" alt="Gravar vídeo" />
+        <img src="./assets/img/icon-bell.svg" alt="Notificações" />
+        <img src="./assets/img/avatar.png" alt="Perfil pessoal" />
+      </div>
+    </header>
+    <main id="main">
+      <section id="video-container">
+        <iframe
+          width="952"
+          height="537"
+          src="https://www.youtube.com/embed/GUunbsND-E0"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <h1>
+          Semana Front-end | Dia 01: Construindo uma Landing Page no Mundo
+          Invertido com HTML e CSS
+        </h1>
+        <div class="video-buttons">
+          <div class="channel-description">
+            <img src="./assets/img/channel-avatar.png" alt="" />
+            <div class="channel-details">
+              <p>Dio</p>
+              <p>83,3 mil inscritos</p>
+            </div>
+          </div>
+          <button class="subscribe-button">Inscreva-se</button>
+          <div class="like">
+            <img src="./assets/img/thumbs-up.svg" alt="Botão de Gostei" />
+            <p>2 mil</p>
+          </div>
+          <div class="dislike">
+            <img src="./assets/img/thumbs-down.svg" alt="Botão de Não Gostei" />
+            <p>Não Gostei</p>
+          </div>
+          <div class="share">
+            <img src="./assets/img/share.svg" alt="Botão de Compartilhar" />
+            <p>Compartilhar</p>
+          </div>
+          <div class="download">
+            <img src="./assets/img/download.svg" alt="Botão de Download" />
+            <p>Download</p>
+          </div>
+        </div>
+        <p class="video-stats">
+          28.418 visualizações Transmitido ao vivo em 23 ago. de 2022
+        </p>
+        <p class="video-description">
+          Inicie uma aventura imersiva no mundo do Front-end com HTML e CSS.
+          Para isso, criaremos uma landing page com a temática da série Stranger
+          Things, a qual contará com a implementação de um theme switcher (light
+          e dark) para explorarmos os mistérios do mundo invertido.
+        </p>
+      </section>
+      <section id="sidebar">
+        <ul>
+          <li>
+            <div class="sidebar-video">
+              <a href="#">
+                <img
+                  src="./assets/img/thumbnail1.png"
+                  alt="Thumbnail do Vídeo 1"
+                />
+                <div class="sidebar-video-details">
+                  <p>Geração Tech Unimed - BH - Ciência de Dados</p>
+                  <p>DigitalInnovationOne</p>
+                  <p>
+                    2,1 mil visualizações <span>Transmitido há 3 dias</span>
+                  </p>
+                </div>
+              </a>
+            </div>
+          </li>
+
+          <li>
+            <div class="sidebar-video">
+              <a href="#">
+                <img
+                  src="./assets/img/thumbnail2.png"
+                  alt="Thumbnail do Vídeo 2"
+                />
+                <div class="sidebar-video-details">
+                  <p>Scrum Talks</p>
+                  <p>DigitalInnovationOne</p>
+                  <p>
+                    1,6 mil visualizações <span>Transmitido há 3 dias</span>
+                  </p>
+                </div>
+              </a>
+            </div>
+          </li>
+
+          <li>
+            <div class="sidebar-video">
+              <a href="#">
+                <img
+                  src="./assets/img/thumbnail1.png"
+                  alt="Thumbnail do Vídeo 1"
+                />
+                <div class="sidebar-video-details">
+                  <p>Geração Tech Unimed - BH - Ciência de Dados</p>
+                  <p>DigitalInnovationOne</p>
+                  <p>
+                    2,1 mil visualizações <span>Transmitido há 3 dias</span>
+                  </p>
+                </div>
+              </a>
+            </div>
+          </li>
+
+          <li>
+            <div class="sidebar-video">
+              <a href="#">
+                <img
+                  src="./assets/img/thumbnail2.png"
+                  alt="Thumbnail do Vídeo 2"
+                />
+                <div class="sidebar-video-details">
+                  <p>Scrum Talks</p>
+                  <p>DigitalInnovationOne</p>
+                  <p>
+                    1,6 mil visualizações <span>Transmitido há 3 dias</span>
+                  </p>
+                </div>
+              </a>
+            </div>
+          </li>
+
+          <li>
+            <div class="sidebar-video">
+              <a href="#">
+                <img
+                  src="./assets/img/thumbnail1.png"
+                  alt="Thumbnail do Vídeo 1"
+                />
+                <div class="sidebar-video-details">
+                  <p>Geração Tech Unimed - BH - Ciência de Dados</p>
+                  <p>DigitalInnovationOne</p>
+                  <p>
+                    2,1 mil visualizações <span>Transmitido há 3 dias</span>
+                  </p>
+                </div>
+              </a>
+            </div>
+          </li>
+
+          <li>
+            <div class="sidebar-video">
+              <a href="#">
+                <img
+                  src="./assets/img/thumbnail2.png"
+                  alt="Thumbnail do Vídeo 2"
+                />
+                <div class="sidebar-video-details">
+                  <p>Scrum Talks</p>
+                  <p>DigitalInnovationOne</p>
+                  <p>
+                    1,6 mil visualizações <span>Transmitido há 3 dias</span>
+                  </p>
+                </div>
+              </a>
+            </div>
+          </li>
+
+          <li>
+            <div class="sidebar-video">
+              <a href="#">
+                <img
+                  src="./assets/img/thumbnail1.png"
+                  alt="Thumbnail do Vídeo 1"
+                />
+                <div class="sidebar-video-details">
+                  <p>Geração Tech Unimed - BH - Ciência de Dados</p>
+                  <p>DigitalInnovationOne</p>
+                  <p>
+                    2,1 mil visualizações <span>Transmitido há 3 dias</span>
+                  </p>
+                </div>
+              </a>
+            </div>
+          </li>
+
+          <li>
+            <div class="sidebar-video">
+              <a href="#">
+                <img
+                  src="./assets/img/thumbnail2.png"
+                  alt="Thumbnail do Vídeo 2"
+                />
+                <div class="sidebar-video-details">
+                  <p>Scrum Talks</p>
+                  <p>DigitalInnovationOne</p>
+                  <p>
+                    1,6 mil visualizações <span>Transmitido há 3 dias</span>
+                  </p>
+                </div>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
